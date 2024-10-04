@@ -1,10 +1,10 @@
-##Bike Race  API
+## Bike Race  API
 
 Overview
 The Bike Race API provides endpoints for managing race-related data, including information about riders, race results, and weather conditions. This API allows users to retrieve details about the fastest riders, riders who did not finish, and riders not participating in a race. 
 Additionally, it offers weather information for specific racing location.
 
-##Features
+## Features
 
 Retrieve Fastest Riders: Get a list of the fastest riders for a given race.
 Riders Who Did Not Finish: Obtain a list of riders who did not finish the race.
@@ -21,7 +21,7 @@ OpenAPI (Springdoc): For API documentation and Swagger UI.
 JUnit & Mockito: For unit testing.
 
 
-##Getting Started
+## Getting Started
 
 Prerequisites
 Java 17 
@@ -29,18 +29,19 @@ Maven
 An IDE (IntelliJ IDEA)
 
 
-##Installation
+## Installation
 
 Clone the repository:
 
 git clone https://github.com/yourusername/race-management-api.git
+
 cd Bike-Race
 
 Build the project:
 
 mvn clean install
 
-##API Endpoints
+## API Endpoints
 
 Get Fastest Riders
 GET /v1/api/races/{raceId}/fastest-riders
@@ -57,18 +58,19 @@ GET /v1/api/races/current/{cityName}
 Get Weather Forecast
 GET /v1/api/races/forecast/{cityName}
 
-##Configuration
+## Configuration
 The API key and base URL for the weather service are configured in the application.properties file
 
 weather.api.url=http://api.openweathermap.org/data/2.5
+
 weather.api.key=your_api_key_here
 
-##Testing
+## Testing
 Unit tests can be run using Maven:
 
 mvn test
 
-##API Documentation
+## API Documentation
 
 API documentation is available at:
 
