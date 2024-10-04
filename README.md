@@ -14,10 +14,15 @@ Weather Forecast: Get the weather forecast for a race  specific location  (city)
 
 ## Technologies Used
 Spring Boot: Framework for building the API.
+
 Spring Web: For creating RESTful web services.
+
 Spring Data JPA: For database operations.
+
 Postgres Databse: database for development and testing.
+
 OpenAPI (Springdoc): For API documentation and Swagger UI.
+
 JUnit & Mockito: For unit testing.
 
 
