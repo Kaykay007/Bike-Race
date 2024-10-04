@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
+
     @ExceptionHandler(RaceNotFoundException.class)
     public ResponseEntity<String> handleRaceNotFoundException(RaceNotFoundException ex) {
         return ResponseEntity.status(HttpStatus.NOT_FOUND)
