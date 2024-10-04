@@ -12,7 +12,7 @@ Riders Not in Race: Fetch a list of riders not participating in a specified race
 Current Weather: Access current weather data for a race specified location (city).
 Weather Forecast: Get the weather forecast for a race  specific location  (city).
 
-##Technologies Used
+## Technologies Used
 Spring Boot: Framework for building the API.
 Spring Web: For creating RESTful web services.
 Spring Data JPA: For database operations.
