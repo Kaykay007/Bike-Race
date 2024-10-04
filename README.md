@@ -39,7 +39,7 @@ cd Bike-Race
 
 Build the project:
 
-mvn clean install
+bash mvn clean install
 
 ## API Endpoints
 
@@ -68,7 +68,7 @@ weather.api.key=your_api_key_here
 ## Testing
 Unit tests can be run using Maven:
 
-mvn test
+bash mvn test
 
 ## API Documentation
 
