@@ -21,16 +21,14 @@ public class RaceService {
     private final RaceRepository raceRepository;
     private final RaceResultRepository resultRepository;
     private final RiderRepository riderRepository;
-    private final WeatherService weatherService;
     private final RaceResultRepository raceResultRepository;
 
     @Autowired
     public RaceService(RaceRepository raceRepository, RaceResultRepository resultRepository,
-                       RiderRepository riderRepository, WeatherService weatherService, RaceResultRepository raceResultRepository) {
+                       RiderRepository riderRepository, RaceResultRepository raceResultRepository) {
         this.raceRepository = raceRepository;
         this.resultRepository = resultRepository;
         this.riderRepository = riderRepository;
-        this.weatherService = weatherService;
         this.raceResultRepository = raceResultRepository;
     }
 
